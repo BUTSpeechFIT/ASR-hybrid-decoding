@@ -16,3 +16,7 @@ This expancion of kaldi was been tested on the following databases:
 How to run:
 
 First run kaldi recipies and then on top of them you can run hybrid decoding as presented here. The file structure in this repository is the same as kaldi file structure, so it suffices to copy scripts from this repository to corresponding folders in your kaldi system build. After that, run run_hybrid_decoding.sh script, which will build the hybrid decoding graph and perform the decofing.
+
+LibriSpeech setup:
+
+OOV_list_1000.txt has a selection of 1000 words to perform as OOVs for this database. For a detailed description of how they were chosen, see subsection 3.1 in http://www.fit.vutbr.cz/research/groups/speech/publi/2018/egorova_icassp2018_0005919.pdf 
