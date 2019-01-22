@@ -41,6 +41,7 @@ fi
 
 if [ $stage -le 3 ]; then
   echo "make combined graph"
+  #Note that this will require a lot of memory as the hybrid graph is much bigger. If you run into problems, try pruning the graph or playing with phoneme cost, phoneme insertion penalty and phoneme LM scaling factor
   utils/mkgraph.sh $hybrid_lang exp/nnet5a_clean_100_gpu exp/nnet5a_clean_100_gpu/graph_hybrid_${postfix}
 fi
 
