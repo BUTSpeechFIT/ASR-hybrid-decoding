@@ -10,6 +10,7 @@ phn_graph_dir=$phn_dir/../phn_graphs_hybrid/PWIP_${PWIP}_PLMSF_${PLMSF}_PC_${PC}
 wrd_graph_dir=$wrd_dir/../wrd_graphs_hybrid/PWIP_${PWIP}_PLMSF_${PLMSF}_PC_${PC}
 
 echo "make phoneme graph"
+#./utils/format_lm_sri_phn.sh differs from ./utils/format_lm_sri.sh in the use of disambiguation symbol
 ./utils/format_lm_sri_phn.sh --srilm-opts "-subset -prune-lowprobs -order 3" $phn_dir $phn_dir/phn.3gram.lm $phn_dir/phn.dict $phn_graph_dir
 
 mv $phn_graph_dir/G.fst $phn_graph_dir/G_PHN.fst
