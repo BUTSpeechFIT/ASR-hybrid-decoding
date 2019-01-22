@@ -1,5 +1,7 @@
 # ASR-hybrid-decoding
-This is an extension of kaldi speech recognition software which allows to perform decoding of speech with hybrid word and phoneme graphs. The output is a mix of in-vocabulary words and phoneme sequences. This decoding is suitable for systems with only a small dictionary available and for further recovery of OOV words.
+This is an extension of kaldi speech recognition software which allows to perform decoding of speech with hybrid word and phoneme graphs. The output is a mix of in-vocabulary words and phoneme sequences. This decoding is suitable for systems with only a small dictionary available and for further recovery of OOV words. 
+
+Brief description of the hybrid decoding system can be found in a paper: http://www.fit.vutbr.cz/research/groups/speech/publi/2018/egorova_icassp2018_0005919.pdf and generally follows an approach in an earlier papar: http://www.fit.vutbr.cz/research/groups/speech/publi/2008/szoke_sigir2008.pdf
 
 For this to work you'll need kaldi speech recognition toolkit installed: https://github.com/kaldi-asr/kaldi
 
