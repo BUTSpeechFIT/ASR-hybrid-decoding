@@ -3,7 +3,7 @@ This is an extension of kaldi speech recognition software which allows to perfor
 
 Theory:
 
-Brief description of the hybrid decoding system can be found in a paper: http://www.fit.vutbr.cz/research/groups/speech/publi/2018/egorova_icassp2018_0005919.pdf and generally follows an approach in an earlier papar: http://www.fit.vutbr.cz/research/groups/speech/publi/2008/szoke_sigir2008.pdf
+Brief description of the hybrid decoding system can be found in a paper: http://www.fit.vutbr.cz/research/groups/speech/publi/2018/egorova_icassp2018_0005919.pdf and generally follows an approach in an earlier paper: http://www.fit.vutbr.cz/research/groups/speech/publi/2008/szoke_sigir2008.pdf
 
 Requirements:
 
@@ -15,4 +15,4 @@ This expancion of kaldi was been tested on the following databases:
 
 How to run:
 
-First run kaldi recepies and then on top of them you can run hybrid decoding as presented here. The file structure in this repository is the same as kaldi file structure, so it suffices to copy scripts from this repository to corresponding folders in your kaldi system build. After that, run run_hybrid_decoding.sh script, which will build the hybrid decoding graph and perform the decofing.
+First run kaldi recipies and then on top of them you can run hybrid decoding as presented here. The file structure in this repository is the same as kaldi file structure, so it suffices to copy scripts from this repository to corresponding folders in your kaldi system build. After that, run run_hybrid_decoding.sh script, which will build the hybrid decoding graph and perform the decofing.
