@@ -9,4 +9,4 @@ This expancion of kaldi was been tested on the following databases:
 1) LibriSpeech https://github.com/kaldi-asr/kaldi/tree/master/egs/librispeech
 2) Wall Street Journal https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj
 
-First run kaldi recepies and then on top of them you can run hybrid decoding as presented here. The file structure in this repository is the same as kaldi file structure, so it suffices to copy scripts from this repository to corresponding folders in your kaldi system build
+First run kaldi recepies and then on top of them you can run hybrid decoding as presented here. The file structure in this repository is the same as kaldi file structure, so it suffices to copy scripts from this repository to corresponding folders in your kaldi system build. After that, run run_hybrid_decoding.sh script, which will build the hybrid decoding graph and perform the decofing.
