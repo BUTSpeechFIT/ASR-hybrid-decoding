@@ -3,15 +3,15 @@ This is an extension of kaldi speech recognition software which allows to perfor
 
 ## Theory:
 
-Brief description of the hybrid decoding system can be found in a paper: http://www.fit.vutbr.cz/research/groups/speech/publi/2018/egorova_icassp2018_0005919.pdf and generally follows an approach in an earlier paper: http://www.fit.vutbr.cz/research/groups/speech/publi/2008/szoke_sigir2008.pdf
+Brief description of the hybrid decoding system can be found in a [paper](http://www.fit.vutbr.cz/research/groups/speech/publi/2018/egorova_icassp2018_0005919.pdf) and generally follows an approach in an [earlier paper](http://www.fit.vutbr.cz/research/groups/speech/publi/2008/szoke_sigir2008.pdf)
 
 ## Requirements:
 
-For this to work you'll need kaldi speech recognition toolkit installed: https://github.com/kaldi-asr/kaldi
+For this to work you'll need [kaldi speech recognition toolkit](https://github.com/kaldi-asr/kaldi) installed
 
-This expancion of kaldi was been tested on the following databases:
-1) LibriSpeech https://github.com/kaldi-asr/kaldi/tree/master/egs/librispeech
-2) Wall Street Journal https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj
+This expansion of kaldi was been tested on the following databases:
+1) [LibriSpeech](https://github.com/kaldi-asr/kaldi/tree/master/egs/librispeech)
+2) [Wall Street Journal](https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj)
 
 ## How to run:
 
@@ -19,4 +19,4 @@ First run kaldi recipies and then on top of them you can run hybrid decoding as 
 
 ## LibriSpeech setup:
 
-OOV_list_1000.txt has a selection of 1000 words to perform as OOVs for this database. For a detailed description of how they were chosen, see subsection 3.1 in http://www.fit.vutbr.cz/research/groups/speech/publi/2018/egorova_icassp2018_0005919.pdf 
+OOV_list_1000.txt has a selection of 1000 words to perform as OOVs for this database. For a detailed description of how they were chosen, see subsection 3.1 in [paper](http://www.fit.vutbr.cz/research/groups/speech/publi/2018/egorova_icassp2018_0005919.pdf)
