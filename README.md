@@ -15,7 +15,7 @@ This expansion of kaldi was been tested on the following databases:
 
 ## How to run:
 
-First run kaldi recipies and then on top of them you can run hybrid decoding as presented here. The file structure in this repository is the same as kaldi file structure, so it suffices to copy scripts from this repository to corresponding folders in your kaldi system build. After that, run run_hybrid_decoding.sh script, which will build the hybrid decoding graph and perform the decofing.
+First run kaldi recipies and then on top of them you can run hybrid decoding as presented here. The file structure in this repository is the same as kaldi file structure, so it suffices to copy scripts from this repository to corresponding folders in your kaldi system build. After that, run **run_hybrid_decoding.sh** script, which will build the hybrid decoding graph and perform the decoding.
 
 ## LibriSpeech setup:
 
